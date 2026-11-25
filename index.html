@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>دەزگای شەهیدان</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Tahoma, Arial, sans-serif;
+            background: linear-gradient(135deg, #f3f0e5, #e5f0e8);
+            color: #26382d;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            background: #174c35;
+            color: white;
+            padding: 30px 20px;
+            border-radius: 18px;
+        }
+
+        header h1 {
+            margin-bottom: 15px;
+        }
+
+        header p {
+            line-height: 2;
+        }
+
+        form {
+            background: white;
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 18px;
+            box-shadow: 0 5px 20px #0001;
+        }
+
+        label {
+            display: block;
+            margin-top: 18px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 13px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 9px;
+            font-family: inherit;
+            font-size: 15px;
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 25px;
+            padding: 15px;
+            background: #174c35;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #236c49;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            color: #666;
+            line-height: 2;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <h1>🏛 دەزگای شەهیدان</h1>
+
+        <p>
+            سڵاو، بەڕێز، بەخێربێیت بۆ دەزگای شەهیدان.
+            <br>
+            ئێمە بە شانازییەوە پێشوازی لە کەس و کاری شەهیدان دەکەین.
+        </p>
+
+        <p>
+            شەهیدان ڕۆحی نیشتمان و مایەی سەربەرزی نەتەوەکەمانن.
+            قوربانی و فیداکارییەکانیان هەرگیز لە یادمان ناچێت.
+            ئێمە ڕێز لە خێزانە سەربەرزەکانیان دەگرین
+            و خۆمان بەرامبەریان بەرپرسیار دەزانین.
+        </p>
+
+    </header>
+
+    <form
+        action="https://formsubmit.co/shiaw6182@gmail.com"
+        method="POST">
+
+        <input type="hidden"
+               name="_subject"
+               value="داواکاری نوێ - دەزگای شەهیدان">
+
+        <input type="hidden"
+               name="_captcha"
+               value="false">
+
+        <input type="hidden"
+               name="_template"
+               value="table">
+
+        <label>تکایە ناوت بنووسە:</label>
+
+        <input type="text"
+               name="ناوی تەواو"
+               placeholder="ناو و ناوی باوک"
+               required>
+
+        <label>نمرەکەت لە پۆلی ١٢:</label>
+
+        <input type="number"
+               name="نمرەی پۆلی ١٢"
+               placeholder="نمرەکەت بنووسە"
+               min="0"
+               max="100"
+               required>
+
+        <label>
+            بەشی زانکۆیی کە داوای خوێندنی تێدا دەکەیت:
+        </label>
+
+        <select name="بەشی زانکۆ" required>
+
+            <option value="">بەشێک هەڵبژێرە</option>
+
+            <option>پزیشکی</option>
+            <option>دەرمانسازی</option>
+            <option>ئەندازیاری</option>
+            <option>زانستی کۆمپیوتەر</option>
+            <option>تەکنەلۆژیای زانیاری</option>
+            <option>پەرستاری</option>
+            <option>مامۆستایان</option>
+            <option>یاسا</option>
+            <option>ئەدەبیات</option>
+            <option>ئابووری</option>
+            <option>بەشێکی تر</option>
+
+        </select>
+
+        <label>
+            پەیوەندیت بە شەهیدەکەوە چییە؟
+        </label>
+
+        <select name="پەیوەندی بە شەهید" required>
+
+            <option value="">پەیوەندییەک هەڵبژێرە</option>
+
+            <option>کوڕی شەهید</option>
+            <option>کچی شەهید</option>
+            <option>هاوسەری شەهید</option>
+            <option>برا یان خوشکی شەهید</option>
+            <option>باوک یان دایکی شەهید</option>
+            <option>کەس و کاری تر</option>
+
+        </select>
+
+        <label>هەستت چۆنە؟</label>
+
+        <textarea
+            name="هەست و سۆز"
+            placeholder="هەست و سۆزت بنووسە...">
+        </textarea>
+
+        <label>داواکارییەکەت چییە؟</label>
+
+        <textarea
+            name="داواکاری"
+            placeholder="تکایە داواکاری خوێندنت بنووسە..."
+            required>
+        </textarea>
+
+        <label>ژمارەی داواکاری:</label>
+
+        <input type="text"
+               name="ژمارەی داواکاری"
+               placeholder="ژمارەی داواکاری بنووسە">
+
+        <label>دۆخی داواکاری:</label>
+
+        <select name="دۆخی داواکاری">
+
+            <option>داواکاری کراوە</option>
+            <option>داواکاری داخراوە</option>
+            <option>چاوەڕێی وەڵامم</option>
+
+        </select>
+
+        <button type="submit">
+            ناردنی داواکاری
+        </button>
+
+    </form>
+
+    <footer>
+
+        <p>
+            دەزگای شەهیدان
+            <br>
+            ڕێز و شانازی بۆ خێزانەکانی شەهیدان
+        </p>
+
+        <p>
+            بە ڕێز و سڵاو
+            <br>
+            شیاو
+        </p>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
